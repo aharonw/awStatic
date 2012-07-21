@@ -1,0 +1,32 @@
+body{
+  font-family: 'Helvetica Neue', 'Helvetica', Arial, sansserif;
+  -webkit-font-smoothing: antialiased;
+  color: #888;
+  background-image: url('/images/blueFabric.png');
+}
+header{
+  position: absolute;
+  top: 0px;
+  width: 100%;
+  z-index: 2;
+}
+
+/* END HEADER MODIFICATIONS */
+
+#tv{
+  width: 640px;
+  height: 480px;
+  border: 14px solid #AAA;
+  margin: 0 auto;
+  margin-top: 120px;
+  -moz-border-radius: 80px;
+  border-radius: 80px;
+  background-color: #f7f7f7;
+  overflow: hidden;
+}
+#screen{
+  height: 100%;
+}
+#screen svg{
+  border-radius: 60px;
+}
